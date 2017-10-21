@@ -1696,9 +1696,8 @@ def bot(op):
 
             elif msg.text in ["sayang","Raisa","syng","sayang","Syng","yaya"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"Iya apa sayangku?")
-		    kk.sendText(msg.to,"Iya aku disini sayang..")
-
+                    ki.sendText(msg.to,"Iya aku disini sayan...?")
+		    
 	    elif msg.text in ["About"]:
                 if msg.from_ in admin:
                     ki.sendText(msg.to,"Created By : Dhanz\n Ig : Dhanz\n https://www.instagram.com/riooosr/")
@@ -1711,11 +1710,11 @@ def bot(op):
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"PONG")
+                    ki.sendText(msg.to,"PONG")            elif msg.text in ["PING","Ping","ping"]:
 #-----------------------------------------------
             elif msg.text in ["Beb","beb"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"Aku disini, Sayangku")
+                    ki.sendText(msg.to,"Ada apa beb?")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
