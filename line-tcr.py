@@ -1694,9 +1694,9 @@ def bot(op):
                                     kc.sendText(msg.to,(bctxt))
 #-----------------------------------------------
 
-            elif msg.text in ["sayang","Raisa","syng","sayang","Syng","yaya"]:
+            elif msg.text in ["Sayang","Raisa","syng","sayang","Syng","yaya"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"Iya aku disini sayan...?")
+                    ki.sendText(msg.to,"Iya aku disini sayang...")
 		    
 	    elif msg.text in ["About"]:
                 if msg.from_ in admin:
@@ -1710,7 +1710,7 @@ def bot(op):
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"PONG")            elif msg.text in ["PING","Ping","ping"]:
+                    ki.sendText(msg.to,"PONG")
 #-----------------------------------------------
             elif msg.text in ["Beb","beb"]:
                 if msg.from_ in admin:
