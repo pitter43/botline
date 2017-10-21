@@ -58,8 +58,8 @@ Created By : Dhanz
 [Kill 「@」]
 [Ban 「@」] By Tag
 [Unban 「@」] By Tag
-[Ban︎] Kirim Kontaknya
-[Unban︎] Kirim Kontaknya
+[Ban︎] Send Contact
+[Unban︎] Send Contact
 [Banlist︎]
 [Cek ban]
 [Gy mid]
@@ -1694,16 +1694,17 @@ def bot(op):
                                     kc.sendText(msg.to,(bctxt))
 #-----------------------------------------------
 
-            elif msg.text in ["say hi"]:
+            elif msg.text in ["sayang","Raisa","syng","sayang","Syng","yaya"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"Hi")
-		
+                    ki.sendText(msg.to,"Iya apa sayangku?")
+		    kk.sendText(msg.to,"Iya aku disini sayang..")
+
 	    elif msg.text in ["About"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"Created By : Rakha\n Ig : rakha008\n https://www.instagram.com/rakha008/")
+                    ki.sendText(msg.to,"Created By : Dhanz\n Ig : Dhanz\n https://www.instagram.com/riooosr/")
 
 #-----------------------------------------------          
-            elif msg.text in ["#welcome"]:
+            elif msg.text in ["#welcome","wc","welcome"]:
                 if msg.from_ in admin:
                     ki.sendText(msg.to,"Hai, wc")
                     kk.sendText(msg.to,"hai, slamat datang di grup kecil kami")
@@ -1712,9 +1713,9 @@ def bot(op):
                 if msg.from_ in admin:
                     ki.sendText(msg.to,"PONG")
 #-----------------------------------------------
-            elif msg.text in ["Respon","respon"]:
+            elif msg.text in ["Beb","beb"]:
                 if msg.from_ in admin:
-                    ki.sendText(msg.to,"im here, Lord")
+                    ki.sendText(msg.to,"Aku disini, Sayangku")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
@@ -1728,11 +1729,11 @@ def bot(op):
             elif msg.text in ["Ban"]:
                 if msg.from_ in admin:
                     wait["wblacklist"] = True
-                    cl.sendText(msg.to,"send contact")
+                    cl.sendText(msg.to,"kirim kontaknya yang mau di banned")
             elif msg.text in ["Unban"]:
                 if msg.from_ in admin:
                     wait["dblacklist"] = True
-                    cl.sendText(msg.to,"send contact")
+                    cl.sendText(msg.to,"kirim kontaknya yang mau di unbanned")
             elif msg.text in ["Banlist"]:
                 if msg.from_ in admin:
                     if wait["blacklist"] == {}:
