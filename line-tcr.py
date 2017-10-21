@@ -16,7 +16,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" Gynoid V.1.0
-Created By : Rakha
+Created By : Dhanz
 [Id︎]
 [Mid]
 [Me︎]
@@ -58,8 +58,8 @@ Created By : Rakha
 [Kill 「@」]
 [Ban 「@」] By Tag
 [Unban 「@」] By Tag
-[Ban︎] Share Contact
-[Unban︎] Share Contact
+[Ban︎] Kirim Kontaknya
+[Unban︎] Kirim Kontaknya
 [Banlist︎]
 [Cek ban]
 [Gy mid]
@@ -77,7 +77,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["u21a6c9ed9087408cabab8c0bfbb28702","ufdb348d53532a57228f045ecfaa00f8d"]
+admin=["u21a6c9ed9087408cabab8c0bfbb28702"]
 wait = {
     'contact':True,
     'autoJoin':True,
@@ -85,9 +85,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Thanks for add me",
+    'message':"Makasih udah add aku",
     "lang":"JP",
-    "comment":"Thanks for add me",
+    "comment":"Makasih udah add aku",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
